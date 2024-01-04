@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qmt>
+ <project>
+  <uid>{9b05722b-5ce3-4a09-874b-35020478e969}</uid>
+  <root-package>
+   <instance>
+    <MPackage>
+     <base-MObject>
+      <MObject>
+       <base-MElement>
+        <MElement>
+         <uid>{4957dd02-222c-4ed0-bf44-508791bafeae}</uid>
+        </MElement>
+       </base-MElement>
+       <name>UML Tasky</name>
+       <children>
+        <handles>
+         <handles>
+          <qlist>
+           <item>
+            <handle>
+             <uid>{83f184ca-558b-4d3e-8388-51cb9ccaf76a}</uid>
+             <target>
+              <instance type="MCanvasDiagram">
+               <MCanvasDiagram>
+                <base-MDiagram>
+                 <MDiagram>
+                  <base-MObject>
+                   <MObject>
+                    <base-MElement>
+                     <MElement>
+                      <uid>{83f184ca-558b-4d3e-8388-51cb9ccaf76a}</uid>
+                     </MElement>
+                    </base-MElement>
+                    <name>UML Tasky</name>
+                   </MObject>
+                  </base-MObject>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{7e9f555f-09fc-40e7-afa9-be6210c222e8}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{0a63bf50-74a4-4b6e-9283-b0ef9864cd3e}</object>
+                         <name>Tarea</name>
+                         <pos>x:310;y:175</pos>
+                         <rect>x:-255;y:-140;w:510;h:280</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{24a6d400-807f-46d3-8690-072bc7ea8651}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{ac3bad5c-c525-4a80-bff8-d457afc4a28a}</object>
+                         <name>Tasky</name>
+                         <pos>x:245;y:500</pos>
+                         <rect>x:-165;y:-155;w:330;h:310</rect>
+                         <auto-sized>false</auto-sized>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1704334570887</last-modified>
+                  <toolbarid>General</toolbarid>
+                 </MDiagram>
+                </base-MDiagram>
+               </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{0a63bf50-74a4-4b6e-9283-b0ef9864cd3e}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{0a63bf50-74a4-4b6e-9283-b0ef9864cd3e}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>Tarea</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{a08c4c4a-de15-49a6-b40d-b85abfe35960}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>QString m_nombre</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{09536ef5-5056-42ac-9be7-613c7001173d}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>QString m_asignatura</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{89f9489a-de37-4fbb-b9aa-406d9cd69ed2}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>QDate m_fecha</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{73951e6b-bbb6-420f-b2b5-7b49450e7bb9}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>QTime m_hora</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{aa8a8573-f3e4-48a0-baaf-13c8be61fbad}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>explicit Tarea(QObject *parent = nullptr)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5ba0e945-95ad-4d0b-b018-a3ca8aaca8bc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>Tarea(const QString &amp;nombre,const QString &amp;asignatura, const QDate &amp;fecha, const QTime &amp;hora)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1df51566-ea9b-43e5-bc44-d72952830543}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const QString &amp;nombre()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{47678a32-fb77-48aa-8b84-a3ec862c26c8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void setNombre(const QString &amp;newNombre)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1297e3a5-1c96-43f6-bc85-d9963783385d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const QString &amp;asignatura()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{59dbd2ab-9dfa-4376-adc1-320298a8dc21}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void setAsignatura(const QString &amp;newAsignatura)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e2018f9e-30fe-4e5a-bead-78d843dcc115}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const QDate &amp;fecha()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{50fbce6c-3064-45a2-9b9f-f48761a3c5d4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void setFecha(const QDate &amp;newFecha)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1ba0f00f-ee04-49d7-84b6-20bfccc499bd}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const QTime &amp;hora()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d605f9cc-7613-42f0-b8f5-2951a458eeb9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void setHora(const QTime &amp;newHora)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{ac3bad5c-c525-4a80-bff8-d457afc4a28a}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{ac3bad5c-c525-4a80-bff8-d457afc4a28a}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>Tasky</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{bfe1b96f-21db-4c2e-abb8-8246d7713a4e}</uid>
+                    <type>1</type>
+                    <declaration>Q_OBJECT</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1f1ac1b4-91dc-4aed-bd2a-5d26c6577b0c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>Tasky(QWidget *parent = nullptr)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{30dd05f9-3bf5-451b-89f9-cf4941ad98be}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>~Tasky()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{842a18ef-e4c5-4edc-b38b-10f839093153}</uid>
+                    <visibility>5</visibility>
+                    <type>2</type>
+                    <declaration>void on_pushAgregar_clicked()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b8e67e54-dd5c-4c13-b721-61f72f60f3a1}</uid>
+                    <visibility>5</visibility>
+                    <type>2</type>
+                    <declaration>void on_tblTareas_cellDoubleClicked(int row, int column)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{22c90398-3db2-463c-9125-506a9d06ad1a}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>Ui::Tasky *ui</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{36c5915a-67f2-48d4-85ee-a50073492085}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void agregarTarea(Tarea *t)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{599d144b-79f9-4bb4-944d-9cb303f310d1}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void limpiar()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{805b1288-eda7-4809-817c-a4d7ea79c9d6}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void guardar()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9aa57b7a-c2fa-4417-b7b6-fc3de8a03763}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void cargar()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b17e8409-a85c-4cde-825b-74bea8a23483}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void eliminar(int fila)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e5c82fce-ee54-410b-8646-ddb118697db0}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>bool colorTarea(const Tarea *t)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{746f5803-0a18-402a-9f6b-f1adfaf17253}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>const QString ARCHIVO</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fda57046-b28a-423d-9d91-01b6f78a0052}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>QList&lt;Tarea*&gt; m_tareas</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0084cf4e-fa3d-43ad-8dd1-99aa758d5e08}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>enum Columna</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9d99f839-9746-4566-9f08-8d1ab69df709}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>{         TAREA, ASIGNATURA, FECHA, HORA     }</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+          </qlist>
+         </handles>
+        </handles>
+       </children>
+      </MObject>
+     </base-MObject>
+    </MPackage>
+   </instance>
+  </root-package>
+ </project>
+</qmt>

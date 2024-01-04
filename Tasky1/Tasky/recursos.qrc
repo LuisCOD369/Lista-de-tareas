@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Recursos/planificacion.png</file>
+    </qresource>
+</RCC>

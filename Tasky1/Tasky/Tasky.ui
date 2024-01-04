@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tasky</class>
+ <widget class="QMainWindow" name="Tasky">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Tasky</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="recursos.qrc">
+    <normaloff>:/Recursos/planificacion.png</normaloff>:/Recursos/planificacion.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(163, 229, 227);</string>
+      </property>
+      <property name="title">
+       <string>Agregar Tarea</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="6" column="1" rowspan="2">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cmbAsignatura">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 255, 127);</string>
+         </property>
+         <property name="currentText">
+          <string>Estructura de Datos</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Estructura de Datos</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Programacion Orientada a Objetos</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fisica para ciencias de la computacion</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Calculo Integral</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Electrotecnia</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QWidget" name="widget" native="true">
+         <widget class="QPushButton" name="pushAgregar">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>71</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>&amp;Agregar</string>
+          </property>
+          <property name="icon">
+           <iconset theme="call-stop">
+            <normaloff>.</normaloff>.</iconset>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Tarea:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Fecha:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Escoger asignatura:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QTimeEdit" name="timeHora">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 255, 127);</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="txtTarea">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 255, 127);
+</string>
+         </property>
+         <property name="placeholderText">
+          <string>Ingrese una tarea</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Hora:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QDateEdit" name="dateFecha">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(170, 255, 127);</string>
+         </property>
+         <property name="maximumDateTime">
+          <datetime>
+           <hour>23</hour>
+           <minute>59</minute>
+           <second>59</second>
+           <year>2099</year>
+           <month>12</month>
+           <day>25</day>
+          </datetime>
+         </property>
+         <property name="minimumDateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2023</year>
+           <month>12</month>
+           <day>18</day>
+          </datetime>
+         </property>
+         <property name="minimumDate">
+          <date>
+           <year>2023</year>
+           <month>12</month>
+           <day>18</day>
+          </date>
+         </property>
+         <property name="minimumTime">
+          <time>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+          </time>
+         </property>
+         <property name="currentSection">
+          <enum>QDateTimeEdit::DaySection</enum>
+         </property>
+         <property name="displayFormat">
+          <string>d/M/yyyy</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string> Nota: Para eliminar </string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>una tarea (Dar doble click sobre la tarea).</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Lista de tareas</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QTableWidget" name="tblTareas">
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>751</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
